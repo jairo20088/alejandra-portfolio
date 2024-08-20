@@ -15,7 +15,7 @@
 
   --clr-light: #fff;
   --clr-dark: #000000e0;
-  --clr-accent: #fedbd0;
+  --clr-accent: #bde0fe;
   --clr-brown: #442c2e;
 
   --fs-h1: 3rem;
@@ -104,8 +104,8 @@ h1 {
 h2 {
   font-size: var(--fs-h2);
 }
-h3 {
-  font-size: var(--fs-h3);
+h4 {
+  font-size: var(--fs-h4);
 }
 
 .section__title {
@@ -397,7 +397,7 @@ header {
 
 .portfolio {
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr;
   grid-gap: 20px;
   justify-content: center;
 }
